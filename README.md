@@ -19,7 +19,7 @@ The link to the exit survey can be found in /quiz.html and has an id="surveyLink
 
 When the server is running you can view the current attendance by entering the url following this format:
 
- http://www.yourhosteddomainname.com/Attendance
+http://examcram.lustig.ca/attendance
  
 without manually typing in the link there is no other way to access this page.
   
