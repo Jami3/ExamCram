@@ -13,7 +13,7 @@ This will install all of the node dependancies, now to run the project simply ty
 
 ## Useful Tips
 
-To change the login password simply update the "password" variable inside /app.js
+To change the login password simply update the "password" variable inside /app.js (default pass is: winter2019)
 
 The link to the exit survey can be found in /quiz.html and has an id="surveyLink" and should be updated with each Exam Cram
 
