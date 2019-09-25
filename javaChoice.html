@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Libre+Baskerville" rel="stylesheet">
+    <style type="text/css">
+      body{
+
+          background-color: #00b2ce;
+          height: 100vh;
+          margin: 0;
+
+      }
+      .container{
+        width: 80%;
+        background-color: #003767;
+
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+
+      }
+      .card{
+        display: inline-block;
+        background-color: #00b2ce;
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+      }
+      .card:hover{
+        background-color: #5FBFF9;
+      }
+      .title{
+        color: #86BBD8;
+        text-align: center;
+        height: 50px;
+        margin:0 auto;
+        padding-bottom: 20px;
+        font-size: 30pt;
+        font-weight: bold;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 5px 5px black;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="title">
+        <span>Exam Cram Winter 2019</span>
+      </div>
+      <div class="card" onclick="redirect('java1m')">
+        Java 1 Mid-term Practice Questions
+      </div>
+      <div class="card" onclick="redirect('java1f')">
+        Java 1 Final Practice Questions
+      </div>
+	  <div class="card" onclick="redirect('java2m')">
+        Java 2 Mid-term Practice Questions
+      </div>
+      <div class="card" onclick="redirect('java2f')">
+        Java 2 Final Practice Questions
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    function redirect(ver){
+      window.location.href = './quiz?quiz=' + ver
+    }
+
+
+    </script>
+
+  </body>
+</html>

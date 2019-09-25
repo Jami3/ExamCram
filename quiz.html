@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="quizContainer container">
+      <div class="questionContainer">
+        <span id="questionText">sample question</span><br>
+        <img id="questionImg" src="" alt="" style="max-width: 500px;max-height:300px;">
+      </div>
+      <div id="uInputArea" class = "">
+        pretend these are radio buttons
+      </div>
+      <div class="buttons text-center">
+        <button id="submit" type="button" class="btn btn-primary" onclick="onSubmit()">Submit</button><br>
+        <button id="prev" type="button" class="btn btn-secondary" onclick="onPrev()" style="margin-top: 7px">Back</button>
+        <button id="next" type="button" class="btn btn-secondary" onclick="onNext()" style="margin-top: 7px">Next</button>
+      </div>
+
+      <div id="answer">
+
+      </div>
+      <img id="answerImg" src="" alt="" style="max-width: 500px;max-height:300px;">
+    </div>
+    <div id="completed">
+      <button type="button" id="close" onclick="hideComplete()">X</button>
+      Congratulations on completing the Exam Cram! Please consider filling out our exit survey <a href="http://www.google.ca">here</a> to let us know how you found it.
+    </div>
+    <script src="js/combinedQuizzes.js" charset="utf-8"></script>
+    <script src="js/quiz3.js" charset="utf-8"></script>
+    <script src="js/quiz4.js" charset="utf-8"></script>
+    <script src="js/quiz5.js" charset="utf-8"></script>
+    <script src="js/quizLogic.js" charset="utf-8"></script>
+  </body>
+</html>

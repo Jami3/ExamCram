@@ -1,0 +1,48 @@
+.quizContainer{
+  margin-top: 30px;
+
+}
+button{
+  width: 100px;
+}
+#questionText{
+  font-weight: bold;
+  font-size: 1.4em;
+}
+#uInputArea{
+  padding-top: 30px;
+  max-width: 50%;
+  margin: auto;
+  font-size: 1.6em;
+}
+.buttons{
+  padding-top: 30px;
+}
+img{
+  margin: auto;
+  display: block;
+}
+.questionContainer{
+    text-align: center;
+}
+.trueFalse{
+  width: 4em;
+}
+.specialButton{
+  width: 100px;
+}
+#completed{
+  position: absolute;
+  width: 300px;
+  left: 30%;
+  top: 20%;
+  background-color: white;
+  border-style: solid;
+}
+#close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+}

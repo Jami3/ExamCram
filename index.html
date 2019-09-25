@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<title>Please log in</title>
+</head>
+<body>
+    <div class="quizContainer container">
+        <div class="questionContainer">
+            <span id="questionText">Welcome to the Java Exam Cram. Please enter your name and the password:</span>
+      
+            <form action="select" method="post">
+        </div>
+            <div id="uInputArea">
+                First Name: <br/><input type="text" name="fname" size="35" required/><br/><br/>
+                Last Name: <br/><input type="text" name="lname" size="35" required/><br/><br/>
+                Course: <br/>
+                <input type="radio" name="course" value="Java 1" required>Java 1<br/>
+                <input type="radio" name="course" value="Java 2">Java 2<br/><br/>
+
+                Password:<br/><input type="password" name="pass" size="35" required/><br/><br/>
+                
+                <div class="buttons text-center">
+                    <input class="btn btn-primary specialButton" type="submit" value="Take Quiz">
+                </div>
+        </form>
+    </div>
+</body>
+</html>
