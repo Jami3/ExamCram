@@ -13,6 +13,8 @@ This will install all of the node dependancies, now to run the project simply ty
 
 ## Useful Tips
 
+To change the login password simply update the "password" variable inside /app.js
+
 The link to the exit survey can be found in /quiz.html and has an id="surveyLink" and should be updated with each Exam Cram
 
 When the server is running you can view the current attendance by entering the url following this format:
